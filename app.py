@@ -28,7 +28,6 @@ while validate:
         valid = True
 
         for letter in word.lower():
-
             if letter not in availableLetters:
                 valid = False
                 break

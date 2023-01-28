@@ -10,7 +10,7 @@ scores = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
 validate = True
 
 while validate:
-    rack = raw_input("Enter the letters of your Rack or 0 to quit: ")
+    rack = input("Enter the letters of your Rack or 0 to quit: ")
     validWords = []
 
     letterRack = list(rack.lower())
